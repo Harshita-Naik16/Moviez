@@ -23,7 +23,7 @@ export default async function page({ params }) {
       </div>
 
       {/* Grid container for movie poster and its data */}
-      <div className="relative p-8 transform translate-y-[-30%] md:translate-x-[0%] grid grid-cols-1 md:grid-cols-3 md:place-items-start justify-center gap-12">
+      <div className="relative p-8 transform translate-y-[-21%] sm:translate-y-[-30%] md:translate-x-[0%] grid grid-cols-1 md:grid-cols-3 md:place-items-start justify-center gap-12">
 
         {/* For the poster */}
         <div className="w-56">
