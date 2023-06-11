@@ -25,8 +25,8 @@ export default function Navbar() {
   ]
 
   return (
-    <header className="container mx-auto max-w-[1100px] shadow-md md:px-4 lg:p-0">
-      <nav className="flex flex-row justify-between py-5 md:py-10 gap-8 items-center px-4 md:px-0 relative mb-6">
+    <header className="container mx-auto max-w-[1100px] bg-slate-900 shadow-md md:px-4 lg:p-0 sticky z-30 top-0 left-0">
+      <nav className="flex flex-row justify-between py-5 md:py-10 gap-8 items-center  px-4 md:px-0 relative mb-6">
         <Link href={"/"}  className="p-2 bg-yellow-500 text-black font-bold md:text-2xl text-xl rounded">Moviez</Link>
 
         <ul className={`nav-menu-md flex z-[1] absolute p-8 text-center backdrop-blur-md  flex-col w-full h-screen top-[100%] left-0 ${toggleMenu ? '' : 'md:flex hidden'}`}>

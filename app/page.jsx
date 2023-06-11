@@ -1,4 +1,4 @@
-import Card from "@/components/Card"
+import MovieList from "@/components/MovieList";
 import Slider from "@/components/Slider"
 import fetchApi from "@/lib/GetApi";
 
@@ -15,14 +15,7 @@ export default async function Home() {
 
     <main className="container mx-auto max-w-[1100px]">
       <Slider now_playing={now_playing}/>
-      <div className="py-16 flex flex-wrap gap-4 justify-center">
-        {
-          popularList && popularList.map(movie => {
-            return <Card key={movie.id} movie={movie}/>
-          })
-        }
-      </div>
-      
+      <MovieList movies={popularList}/>     
     </main>
   )
 }
