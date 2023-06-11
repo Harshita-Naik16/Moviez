@@ -53,7 +53,7 @@ export default function Slider({now_playing}) {
                 <MdNavigateNext size={30} />
             </div>
 
-            <div className="flex md:px-2 px-1 py-4 justify-center items-center mx-auto">
+            <div className="flex md:px-2 px-1 py-4 mb-8 justify-center items-center mx-auto">
                 {
                     nowPlayingList && nowPlayingList.map((dot, index) => (
                         <div key={index} className="cursor-pointer" onClick={() => setCurrentIndex(index)}>{currentIndex == index ? <RxDotFilled className="w-5" /> : <RxDot className="w-3" />}</div>
