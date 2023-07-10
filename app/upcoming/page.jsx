@@ -16,12 +16,3 @@ export default async function page() {
     </div>
   )
 }
-
-
-{/* <div className="mx-auto py-10 flex flex-wrap gap-4 justify-center">
-{
-  upcomingList && upcomingList.map(movie => {
-    return <Card key={movie.id} movie={movie} />
-  })
-}
-</div> */}

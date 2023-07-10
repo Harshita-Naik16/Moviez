@@ -6,9 +6,3 @@ export default async function fetchApi(urlParam) {
 }
 
 
-// export default async function fetchApi(urlParam, setState) {
-//     fetch(`https://api.themoviedb.org/3/movie/${urlParam}?api_key=${process.env.API_KEY}`)
-//     .then(response => response.json())
-//     .then(data => setState(data.results))
-//     .catch(err => console.log(err.message))
-// }

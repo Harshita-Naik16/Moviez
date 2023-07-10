@@ -7,7 +7,7 @@ export default async function Home() {
   const data = await fetchApi("popular");
   const popularList = data.results;
 
-  // Fetching data for the client component Slider
+  // Fetching data for the Slider
   const now_playingData = await fetchApi("now_playing");
   const now_playing = now_playingData.results;
   

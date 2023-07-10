@@ -1,34 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Moviez 
 
-## Getting Started
+## Demo link
 
-First, run the development server:
+Access this live site at: [moviez app](https://moviez-coral.vercel.app/) 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About the app
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Moviez is an online website which gives information about the latest and popular movies. It also displays the informations like rating, release date, trailer, synopsis, etc. about a particular movie.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Screenshots
 
-## Learn More
+![moviez screenshot](./public/images/Screenshot%202023-07-10%20at%2020-00-03%20Moviez.png)
 
-To learn more about Next.js, take a look at the following resources:
+![moviez screenshot](./public/images/Screenshot%202023-07-10%20at%2020-12-35%20Moviez.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+I used..
+- ReactJs
+- NextJS
+- TailwindCss
+- Tmdb api
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Approach
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- I was fasinated by the NextJs's server side rendering and caching methods. So, I tried making this app rendered on the server side which helps to load the website faster on the browser.
+- Created separate files for the fetch api since its being used to fetch data for different pages.
+    - some fetch routes only required subtle pathname changes.
+    - created 3 files for overall movies list, a particular movie data, video data.
+- Learnt to use Tailwind Css which really boosts the development experience
+- My main goal with project was to get a good grip on fetching api data and to render them on to the page.
+- The challenging part was to not use client side rendering on main pages which was new to me.
+- I used an online template to create the animation for the loading page.
+
+## contributer
+- Harshita Naik

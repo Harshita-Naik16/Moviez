@@ -3,12 +3,10 @@
 @tailwind utilities;
 
 
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid white; */
 }
 .nav-menu {
   @apply flex  z-[1] absolute top-[100%] left-0  p-8 text-center backdrop-blur-md transition-all duration-500 flex-col w-full h-screen;
@@ -27,6 +25,7 @@
   align-items: center;
   background: #000;
 }
+
 .wave {
   width: 5px;
   height: 100px;
